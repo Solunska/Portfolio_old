@@ -1,0 +1,33 @@
+.button-active{
+    font-size: 1em;
+    padding: 0.5em 1.5em;
+    border: 0.15em solid #8F8375;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #8F8375;
+    font-weight: bolder;
+    width: 10em;
+    height: 2.5em;
+}
+
+.button-unactive{
+    font-size: 1em;
+    padding: 0.5em 1.5em;
+    background-color: transparent;
+    color: #91A8C0;
+    border: transparent;
+    font-weight: lighter;
+    width: 10em;
+    height: 2.5em;
+}
+.button-active-big{
+    font-size: 2em;
+    padding: 0.5em 1.5em;
+    border: 0.15em solid #91A8C0;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #91A8C0;
+    font-weight: bolder;
+    width: 100%;
+    height: 4em;
+}

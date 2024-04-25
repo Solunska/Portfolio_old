@@ -1,14 +1,16 @@
-import {useState} from 'react'
-import './components/Header/Header.css';
+import {useState} from 'react';
+import './components/Navbar/Navbar.css';
 import './App.css';
-import Header from "./components/Header/Header.jsx";
+import Navbar from "./components/Navbar/Navbar.jsx";
+import AboutMe from './components/AboutMe/AboutMe.jsx';
 
 function App() {
 
     return (
-        <body>
-            <Header/>
-        </body>
+        <>
+            <Navbar/>
+            <AboutMe/>
+        </>
     )
 }
 
