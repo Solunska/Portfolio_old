@@ -1,6 +1,6 @@
 .about-me-container {
     display: flex;
     width: 90%;
-    height: 90%;
-    margin: 0 auto;
+    height: 80%;
+    margin: 3em auto;
 }

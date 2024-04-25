@@ -1,5 +1,5 @@
 .button-active{
-    font-size: 1em;
+    font-size: 1.2em;
     padding: 0.5em 1.5em;
     border: 0.15em solid #8F8375;
     border-radius: 50px;
@@ -11,12 +11,13 @@
 }
 
 .button-unactive{
-    font-size: 1em;
+    font-size: 1.2em;
     padding: 0.5em 1.5em;
     background-color: transparent;
-    color: #91A8C0;
+    /* color: #91A8C0; */
+    color: #C5CED4;
     border: transparent;
-    font-weight: lighter;
+    font-weight: normal;
     width: 10em;
     height: 2.5em;
 }
