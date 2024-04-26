@@ -14,40 +14,13 @@ function App() {
     })
 
 
-    function handleAboutMeClick() {
+    function handleClick(aboutMeState, resumeState, projectsState, contactState) {
         setButtonStyles({
-            aboutMe: 'button-active',
-            resume: 'button-unactive',
-            projects: 'button-unactive',
-            contact: 'button-unactive',
-        })
-    }
-
-    function handleResumeClick() {
-        setButtonStyles({
-            aboutMe: 'button-unactive',
-            resume: 'button-active',
-            projects: 'button-unactive',
-            contact: 'button-unactive',
-        })
-    }
-
-    function handleProjectsClick() {
-        setButtonStyles({
-            aboutMe: 'button-unactive',
-            resume: 'button-unactive',
-            projects: 'button-active',
-            contact: 'button-unactive',
-        })
-    }
-
-    function handleContactClick() {
-        setButtonStyles({
-            aboutMe: 'button-unactive',
-            resume: 'button-unactive',
-            projects: 'button-unactive',
-            contact: 'button-active',
-        })
+            aboutMe: aboutMeState,
+            resume: resumeState,
+            projects: projectsState,
+            contact: contactState,
+        });
     }
 
     let content = '';
@@ -66,10 +39,11 @@ function App() {
         <>
             <Navbar
                 buttonStyles={buttonStyles}
-                aboutMeClick={handleAboutMeClick}
-                projectsClick={handleProjectsClick}
-                contactClick={handleContactClick}
-                resumeClick={handleResumeClick} />
+                aboutMeClick={() => handleClick('button-active', 'button-unactive', 'button-unactive', 'button-unactive')}
+                resumeClick={() => handleClick('button-unactive', 'button-active', 'button-unactive', 'button-unactive')}
+                projectsClick={() => handleClick('button-unactive', 'button-unactive', 'button-active', 'button-unactive')}
+                contactClick={() => handleClick('button-unactive', 'button-unactive', 'button-unactive', 'button-active')}
+            />
             {content}
         </>
     )
