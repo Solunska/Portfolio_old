@@ -1,19 +1,23 @@
-.about-me-content-container{
+.about-me-content-container {
     width: 70%;
     padding: 15em 7em;
 }
 
-.about-me-content-container p{
+.introduction-container p {
     font-size: 9em;
     color: #C5CED4;
 }
 
-.about-me-content-container p:nth-of-type(3){
+.introduction-container p:nth-of-type(3) {
     font-size: 9em;
-    color: #8F8375;
+    color: #F9BE42;
 }
 
-.btn-container{ 
+.resume-introduction p:nth-of-type(1) {
+    display: none;
+}
+
+.btn-container {
     margin: 5em 0;
     float: right;
 }

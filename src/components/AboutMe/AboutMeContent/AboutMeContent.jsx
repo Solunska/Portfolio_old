@@ -1,13 +1,12 @@
 import Button from "../../Button/Button";
 import '../../Button/Button.css'
 import './AboutMeContent.css';
+import Introduction from "./Introduction";
 
 export default function AboutMeContent() {
     return (
         <div className="about-me-content-container">
-            <p>Hello!</p>
-            <p>I'm Aneta Solunska</p>
-            <p>UX/UI Designer and Developer.</p>
+            <Introduction />
             <div className='btn-container'>
                 <Button buttonClass='button-active-big'>Code To My Web Portfolio</Button>
             </div>

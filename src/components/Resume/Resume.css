@@ -1,0 +1,46 @@
+.resume-container {
+    display: flex;
+}
+
+.resume-introduction {
+    width: 60%;
+    margin: 8em 10em 5em 20em;
+}
+
+.education-and-skills-container {
+    width: 40%;
+    margin: 8em 20em 5em 10em;
+}
+
+.label {
+    font-size: 2em;
+    color: #C5CED4;
+    margin-left: 0.5em;
+}
+
+.resume-content {
+    margin-top: 1em;
+    font-size: 2.5em;
+    color: #C5CED4;
+    font-weight: 300;
+}
+
+.skills {
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    margin: 5em 0 3em 2em;
+}
+
+.aditional-skills-container{
+    margin: 1em 3em;
+    background-color: #353534;
+    padding: 3em;
+    border-radius: 4em;
+}
+
+.aditional-skills{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
