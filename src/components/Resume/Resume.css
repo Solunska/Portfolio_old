@@ -33,7 +33,7 @@
 }
 
 .aditional-skills-container{
-    margin: 1em 3em;
+    margin: 1em 2em;
     background-color: #353534;
     padding: 3em;
     border-radius: 4em;
@@ -44,3 +44,29 @@
     flex-wrap: wrap;
     margin-top: 1em;
 }
+
+
+
+@media (max-width: 1400px) {
+    .resume-container {
+        flex-direction: column;
+        
+    }
+
+    .education-and-skills-container {
+        margin:   1.4em 10em 5em 20em;
+        width: 75%;
+
+    }
+
+    .resume-introduction{
+        width: 75%;
+    }
+
+    .aditional-skills-container{
+        width: 50%;
+    }
+
+  }
+
+
